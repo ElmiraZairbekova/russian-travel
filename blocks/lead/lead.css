@@ -4,7 +4,7 @@
   flex-direction: column;
   max-width: 984px;
   align-items: center;
-  padding-bottom: 22px;
+  padding-bottom: 92px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -16,11 +16,13 @@
 @media screen and (max-width: 768px) {
   .lead {
     max-width: 768px;
+    padding-bottom: 88px;
   }
 }
   
 @media screen and (max-width: 320px) {
   .lead {
     max-width: 320px;
+    padding-bottom: 64px;
   }
 }
