@@ -2,7 +2,7 @@
     margin: 0 auto;
     max-width: 984px;
     font-family: 'Inter', Arial, sans-serif;
-    padding-bottom: 92px;
+    padding: 92px 0 92px 0;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -14,12 +14,14 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .places {
     max-width: 720px;
+    padding: 88px 0 90px 0;
   }
 }
   
 @media screen and (max-width: 767px) {
   .places {
     max-width: 320px;
-    padding-bottom: 66px;
+    padding-bottom: 64px;
+    padding: 54px 0 66px 0;
   }
 }
